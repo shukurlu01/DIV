@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background: silver;
+    margin: 0;
+}
+#container{
+    background: yellow;
+}
+header{
+    background: orange;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    font: 2em Arial;
+    color: white;
+    text-shadow: 1px 1px 1px #333;
+}
+h2{
+    font: bold 1.8em Arial;
+    color: orange;
+    text-align: center;
+}
+
+menu{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+menu li{
+    display: inline-block;
+}
+menu li a{
+    display: inline-block;
+    font: bold 1em Arial;
+    color: white;
+    background: orange;
+    width: 100%;
+    margin: 5px 0;
+    text-align: center;
+    text-decoration: none;
+}
+main{
+    background: white;
+    /*width: calc(75% - 2 * 20px);*/
+    min-height: 500px;
+    padding: 10px 20px;
+    /*overflow: auto;*/
+}
+p{
+    font: 1em/1.5em Arial;
+    text-align: justify;
+    text-indent: 3em;
+}
+img{
+    box-shadow: 3px 2px 5px #333;
+    max-width: 100%;
+}
+footer{
+    background: red;
+    text-align: center;
+    padding: 15px;
+    font: normal 0.8em Arial;
+    color: white;
+}
+
+/* DESKTOP version */
+
+@media only screen and (min-width: 768px) {
+    #container{
+        max-width: 1000px;
+        margin: auto;
+    }
+    h1{
+        font: 2.4em Arial;
+    }
+    nav{
+        float: left;
+        width: 25%;
+    }
+    menu li{display: initial;}
+    main{
+        float: left;
+        width: 75%;
+    }
+    img{
+        width: 400px;
+        float: right;
+        margin: 0 0 10px 30px;
+    }
+    footer{
+        clear: both;
+    }
+}

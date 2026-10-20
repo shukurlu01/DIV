@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background: silver;
+}
+#container{
+    width: 400px;
+    height: 400px;
+    border: 1px solid blue;
+    background-color: white;
+
+}
+h2{
+    font: bold 1.8em Arial, Helvetica, sans-serif;
+}
+p{
+    font: 1em Arial, Helvetica, sans-serif;
+    color: gray;
+}
+input{
+    box-shadow: gray;
+    width: 370px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#submit{
+    justify-content: center;
+    width: 370px;
+    height: 35px;
+    background: blue;
+    color: white;
+}

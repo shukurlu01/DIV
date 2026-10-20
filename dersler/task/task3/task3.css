@@ -1,0 +1,85 @@
+body{
+    background: mediumpurple;
+    display: flex;
+}
+.cercive1{
+    border: black solid 1px;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.cercive2{
+    border: black solid 1px;
+    border-radius: 10px;
+    margin-left: 30px;
+    width: 200px;
+    margin-top: 100px;
+
+}
+.cercive3{
+    border: black solid 1px;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.yuxari1{
+    position: absolute;
+    background: darkblue;
+    width: 200px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px 10px 0 0;
+}
+img{
+    height: 180px;
+    width: 220px;
+    position-area: center;
+}
+.yuxari2{
+    position: absolute;
+    background: green;
+    width: 200px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 0;
+    border-radius: 10px 10px 0 0;
+}
+.yuxari3{
+    position: absolute;
+    background: red;
+    width: 200px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 0;
+    border-radius: 10px 10px 0 0;
+    
+}
+.button{
+    border-radius: 5px;
+    border: solid 1px purple;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: purple;
+    margin-left: 35px;    ;
+}
+.asagi{
+    background: pink;
+    margin-top: 180px;
+    height: 320px;
+    border-radius: 0 0 10px 10px;
+
+}
+.yazi{
+    margin-left: 10px;
+}

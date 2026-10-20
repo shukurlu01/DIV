@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url('cod.jpg');
+    display: flex;
+}
+#left{
+    border: none;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.leftyazi{
+    color: white;
+    text-align: center;
+}
+#games{
+    margin-left: 70px;
+    margin-top: 20px;   
+}
+.game{
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    width: 250px;
+    margin: 15px;
+    background: black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.game img{
+    width: 30%;
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+}
+.li1{
+    color: white;
+}
+.li2{
+    color: gray;
+}
+#bottom{
+    width: 15%;
+    margin-left: 10px;
+    float: left;    
+}
+h3{
+    color: white;
+    text-align: center;
+    margin-right: 120px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#right{
+    border: 1px solid white;
+    background: white;
+    border-radius: 20px;
+    margin-top: 100px;
+    width: 420px;
+    margin-left: 200px;
+    padding-top: 50px;
+    padding: 50px 30px 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.yazi{
+    color: gray;
+    font-size: 15px;
+    display: inline-block;
+}
+#acc{
+    font-size: 15px;
+    color: blue;
+    cursor: pointer;
+
+}
+.user{
+    color: gray;
+    margin-top: 20px;
+}
+.inp{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: lightgray solid 1px;
+    background-color: lightgray;
+    width: 100%;
+    padding: 10px;
+
+}
+
+#btn1{
+    border: none;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    padding: 15px;
+    cursor: pointer;
+}
+#btn2{
+    border: none;
+    border-radius: 10px;
+    background-color: mediumblue;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 3j0px;
+    padding: 15px;
+    cursor: pointer;
+}
