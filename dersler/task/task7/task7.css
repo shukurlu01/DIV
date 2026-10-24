@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+.all{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.bgimg{
+    background: url("https://colorlibhub.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg");
+    height: 100vh;
+}
+
+.right ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right ul li:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.btn{
+    display: flex;
+    gap: 50px;
+}
+
+.content h1{
+    font-size: 5em;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.content p{
+    font-size: 1em;
+    color: white;
+    width: 700px;
+    padding-bottom: 20px;
+}
+
+#learn{
+    border: 3px solid white;
+    background-color: rgba(0,0,0,0.442);
+    border-radius: 3px;
+    padding: 25px 35px;
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    cursor: pointer;
+}
+#learn:hover{
+    background: rgba(0,0,0,0.2);
+}
+
+#download{
+    border: none;
+    background-color: #f1d204;
+    border-radius: 3px;
+    padding: 25px 35px;
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    cursor: pointer;
+}
+#download:hover{
+    background: purple;
+}
+.about h1, .project h1, .topofservice h1{
+    color: #545454;
+    text-align: center;
+    font-size: 35px;
+    font-family: Poppins;
+    padding-top: 40px;
+}
+.about p{
+    text-align: center;
+    justify-content: center;
+    color: #545454;
+    width: 900px;
+    margin: 0 auto 300px;
+    font-family: Poppins;
+    padding: 40px;
+}
+.project p{
+    text-align: center;
+    justify-content: center;
+    color: #545454;
+    padding: 10px;
+    margin: 0 auto 50px;
+}
+#img{
+    display: flex;
+    gap: 0;
+    flex-direction: row;
+    height: 380px;
+}
+.project img{
+    width: 100%;
+ }
+.project img:hover{
+    opacity: 0.5;
+}
+#testimonials{
+    background: url("https://colorlibhub.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg");
+    height: 80vh;
+    background-size: cover;
+}
+#testimonials h1{
+    text-align: center;
+    color: white;
+    font-size: 2.3em;
+    padding: 50px;
+}
+.slider{
+    border: none;
+    margin: 0 250px;
+    overflow: hidden;
+}
+.slider input{
+    display: none;
+}
+.slider img{
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.contentoftesto{
+    border: none;
+    background-color: #6a4d8a;
+    width: 100%;
+    margin: 40px 0;
+    padding: 30px 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slider h3{
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 30px;
+}
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #6a4d8a;
+    margin: auto;
+}
+#sliderbtn ul{
+    display: flex;
+    gap: 15px;
+    color: white;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.topofservice p{
+    text-align: center;
+    justify-content: center;
+    color: #545454;
+    padding: 10px;
+    margin: 0 auto 50px;
+}
+#serviceyazi{
+    display: flex;
+    justify-content: center;
+}
+.yazi{
+    width: 400px;
+    text-align: center;
+    margin-left: 40px;
+}
+.yazibaslig{
+    font-size: 1.2em;
+    padding-bottom: 30px;
+}
+.yazi h3{
+    text-align: center
+}
+.yazi p{
+    color: #6b7387;
+    line-height: 26px;
+}
