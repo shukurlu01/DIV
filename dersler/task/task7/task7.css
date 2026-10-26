@@ -85,11 +85,11 @@
 #download:hover{
     background: purple;
 }
-.about h1, .project h1, .topofservice h1{
+.about h1, .project h1, .topofservice h1, #team h1, #contact h1{
     color: #545454;
     text-align: center;
     font-size: 35px;
-    font-family: Poppins;
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 40px;
 }
 .about p{
@@ -101,7 +101,7 @@
     font-family: Poppins;
     padding: 40px;
 }
-.project p{
+.project p, #team p{
     text-align: center;
     justify-content: center;
     color: #545454;
@@ -178,7 +178,7 @@
     font-size: 1.5em;
     cursor: pointer;
 }
-.topofservice p{
+.topofservice p {
     text-align: center;
     justify-content: center;
     color: #545454;
@@ -188,6 +188,7 @@
 #serviceyazi{
     display: flex;
     justify-content: center;
+    padding-bottom: 70px;
 }
 .yazi{
     width: 400px;
@@ -204,4 +205,206 @@
 .yazi p{
     color: #6b7387;
     line-height: 26px;
+}
+#latestnews{
+    background: #222f36;
+}
+#latestnews h1{
+    text-align: center;
+    color: white;
+    font-size: 2.3em;
+    align-items: center;
+    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#latestnews p{
+    text-align: center;
+    justify-content: center;
+    color: #6b7375;
+    padding: 10px;
+}
+#newsbtn{
+    border: none;
+    border-radius: 3px;
+    background: #f1d204;
+    text-align: center;
+    width: 160px;
+    padding: 12px 0;
+    margin: 0 auto ;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#newsbtn:hover{
+    background: #634a82;
+    transition: 0.5s;
+}
+#blog{
+    color: white;
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.card{
+    background: white;
+    margin-left: 30px;
+}
+.cardbaslig {
+    color: #6b7375;
+    width: 350px;
+    font-size: 1.4em;
+    padding: 30px;
+    font-weight: bold;
+}
+.cardbaslig:hover{
+    color: #f1d204;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.cardayag{
+    color: #6b7375;
+    width: 330px;
+    padding: 0 20px;
+}
+.cardayag p, .tpyazi p{
+    text-align: left !important;
+}
+.readmore{
+    padding: 40px 35px;
+}
+.readmore a{
+    color: #f1d204;
+    cursor: pointer;
+}
+.readmore a:hover{
+    color: #634a82;
+    transition: 0.5s;
+}
+#statics{
+    background-image: url("https://colorlibhub.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-counter.jpg");
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 0;
+}
+.static h1{
+    color: white;
+    font-size: 4em;
+}
+.static h3{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+#static2{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 0 150px;
+}
+.teampeople{
+    display: flex;
+    justify-content: center;
+}
+.teamperson{
+    display: flex;
+    width: 400px;
+}
+.teamperson img{
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.tpyazi{
+    display: block;
+    padding: 20px;
+}
+.tpyazi h3, .tpyazi h5{
+    padding-left: 10px;
+}
+.tpyazi h3{
+    color: #5e5e5e;
+    padding-bottom: 10px;
+}
+.tpyazi h5{
+    padding-bottom: 20px;
+}
+.tpyazi ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    gap: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+#contactbaslig{
+    display: flex;
+    margin-left: 115px;
+}
+.elaqe{
+    display: flex;
+    width: 350px;
+    margin: 0 50px;
+    padding-top: 100px;
+}
+.elaqe h4{
+    font-weight: 400;
+    color: #f2d50c;
+    padding: 0 20px;
+}
+.elaqe p{
+    border-left: 1px solid #e1e1e1;
+    padding: 0 20px;
+    color: #6b7375;
+}
+#fbelaqe{
+    margin-left: 210px;
+    margin-top: 100px;
+}
+#fbelaqe li{
+    color: #333;
+    display: inline;
+    margin-right: 10px;
+}
+label{
+    display: block;
+    color: #6b7383;
+}
+form{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 5px;
+}
+.formboslugu{
+    width: 355px;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    background-color: #fcfcfc;
+}
+#forum{
+    margin-top: 60px;
+    margin-left: 185px;
+}
+#form2{
+    display: block;
+}
+textarea{
+    width: 1125px;
+    height: 180px;
+    border: 1px solid #e1e1e1;
+    background-color: #fcfcfc;
+}
+#sendbtn{
+    border: none;
+    background: #f2d61d;
+    padding: 10px 60px;
+    border-radius: 5px;
+    color: white;
+    font: bold 1em 'Montserrat', sans-serif;
+    margin-left: 970px;
+    margin-top: 30px;
+    cursor: pointer;
 }
