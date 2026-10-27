@@ -24,8 +24,11 @@
     align-items: center;
     gap: 20px;
 }
+.right ul li a{
+    color: white;
+}
 
-.right ul li:hover{
+.right ul li a:hover{
     color: yellow;
     cursor: pointer;
 }
@@ -97,9 +100,51 @@
     justify-content: center;
     color: #545454;
     width: 900px;
-    margin: 0 auto 300px;
+    margin: 0 auto;
     font-family: Poppins;
     padding: 40px;
+}
+#progress{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+#Typography , #Design , #Development{
+    margin-top: 100px;
+    text-align: left;
+}
+
+hr{
+    width: 230px;
+}
+
+#progress i{
+    font-size: medium;
+    margin-top: 1em;
+    float: left;
+}
+
+#progress p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 24px;
+}
+
+#Typography  i, #Typography p{
+    color: rgb(241, 139, 109);
+}
+
+#Design i, #Design p{
+    color: rgb(241, 210, 4);
+}
+
+#Development i, #Development p{
+    color: rgb(106, 77, 138);
+}
+.project{
+    margin-top: 80px;
 }
 .project p, #team p{
     text-align: center;
@@ -365,9 +410,13 @@
     margin-top: 100px;
 }
 #fbelaqe li{
-    color: #333;
+    color: #545454;
     display: inline;
     margin-right: 10px;
+    cursor: pointer;
+}
+#fbelaqe li:hover{
+    color: #333;
 }
 label{
     display: block;
@@ -407,4 +456,66 @@ textarea{
     margin-left: 970px;
     margin-top: 30px;
     cursor: pointer;
+    margin-bottom: 50px;
+}
+footer{
+    width: 100%;
+}
+#footer1{
+    background: #292825;
+    display: flex;
+}
+#footer1 h2{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#footer1 li{
+    color: #6b7375;
+    padding: 10px 0;
+}
+#footer1 li:hover{
+    color: #6a4d8a;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.f1content{
+    margin: 60px 70px;
+}
+#f1cntn1{
+    margin-left: 200px;
+}
+#footer2{
+    background: #242320;
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+}
+#f2p1{
+    color: #6b7375;
+}
+#f2p2{
+    color: #fff;
+}
+#footer3{
+    background: #111827;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+#f3p{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-left: 5px;
+}
+#f3p:hover{
+    color: #85f3d0;
+    transition: 0.3s;
+}
+#footer3 p{
+    color: #d1d5db;
+}
+#f3p2{
+    padding-left: 5px;
 }
