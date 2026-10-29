@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    background: url("../img/main.jpg") center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mainyazi{
+    font: bold 2em Montserrat;
+    color: #fff;
+    text-align: center;
+}
+menu{
+    font: bold 1em Arial, Helvetica;
+    color: #fff;
+}
+
+
+@media only screen and (min-width: 768px) {
+    #mainyazi{
+        font-size: 3.4em;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    menu{
+        display: flex;
+        order: -1;
+        gap: 20px   ;
+    }
+    
+}
