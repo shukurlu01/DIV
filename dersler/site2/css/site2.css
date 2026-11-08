@@ -1,27 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    list-style: none;
-}
-
 header{
-    background: url(img/main.jpg) no-repeat;
+    background: url(../img/main.jpg) center/cover no-repeat;
+    height: 100vh;
 }
-
 header img{
-    margin-top: 40px;
-    margin-left: 52px;
+    
 }
 
 @media screen  and (min-width :768px){
     header{
         width: 100vw;
-        height: 100vh;
-
     }
-
+    header img{
+        margin-top: 40px;
+        margin-left: 52px;
+    }
     header ol{
         display: flex;
         gap: 65px;
@@ -38,6 +30,5 @@ header img{
         color: #ffffff;
         font-family: "Avenir Next Rounded Std";
         text-align: right;
-
     }
 }
