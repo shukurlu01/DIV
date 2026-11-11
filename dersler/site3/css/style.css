@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+:root{
+    --green: #207b20;
+    --gray: #828181;
+}
 header{
     background: url("../img/main.jpg") center/cover;
     height: 100vh;
@@ -14,6 +17,9 @@ nav{
     justify-content: center;
     align-items: center;
 }
+nav a{
+    padding-top: 6px;
+}
 #mainyazi{
     font: bold 2em Montserrat;
     color: #fff;
@@ -23,6 +29,9 @@ menu{
     font: bold 1em Arial, Helvetica;
     color: #fff;
 }
+menu li{
+    padding-top: 5px;
+}
 #btnworkwus{
     border: none;
     border-radius: 23px;
@@ -31,6 +40,98 @@ menu{
     padding: 16px 26px;
     font-size: 22px;
 }
+form{
+    display: flex;
+    padding-top: 5px;
+}
+input{
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+}
+#search{
+    border-radius: 15px 0 0 15px;
+    outline: none;
+    padding: 7px 16px;
+}
+#search::placeholder{
+    color: black;
+}
+#searchsubmit{
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 0 15px 15px 0;
+    padding: 7px 9px;
+}
+#scroll{
+    background: rgba(255, 255, 255, 0.7);
+    padding: 6px 10px;
+    align-self: center;
+    max-width: 90%;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 12px;
+}
+.graybasligh1{
+    font-size: 1.3em;
+    color: var(--gray);
+    font-weight: 100;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 43px;
+}
+.graybasligp{
+    font-size: 1em;
+    color: #b7b3b3;
+    font-family: "Myriad Pro";
+    text-align: center;
+}
+.line{
+    width: 43px;
+}
+#wwdaciglama{
+    text-align: center;
+    padding: 40px
+}
+.aciglama-sekil i{
+    font-size: 5em;
+    color: #53d153;
+    margin: auto;
+}
+.aciglama-sekil{
+    display: flex;
+    background: #e0f3e0;
+    border-radius: 30px;
+    width: 136px;
+    height: 136px;
+    margin: auto;
+
+}
+.aciglamah2{
+    font-size: 1.5em;
+    color: var(--gray);
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    text-align: center;
+    margin-top: 27px;
+}
+.aciglamap{
+    font-size: 1em;
+    color: var(--gray);
+    font-weight: 100;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 18px;
+}
+.aciglamabtn{
+    border-radius: 15px;
+    background-color: #53d153;
+    border: none;
+    color: #fff;
+    padding: 9px 20px;
+    margin-top: 26px;
+    margin-bottom: 23px;
+    cursor: pointer;
+}
+
 
 
 @media only screen and (min-width: 768px) {
@@ -41,11 +142,22 @@ menu{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        padding-left: 30px;
+        gap: 16px;
     }
     menu{
         display: flex;
         order: -1;
-        gap: 20px   ;
+        gap: 20px;
     }
-    
+    .active{
+        border-top: 5px solid #54d154;
+    }
+    #wwdaciglama{
+        display: flex;
+        margin-top: 50px;
+    }
+    .aciglamalar{
+        margin: 0 50px;
+    }
 }
