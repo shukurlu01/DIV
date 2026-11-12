@@ -73,7 +73,7 @@ input{
 .graybasligh1{
     font-size: 1.3em;
     color: var(--gray);
-    font-weight: 100;
+    font-weight: 400;
     font-family: "Montserrat";
     text-align: center;
     padding-top: 43px;
@@ -103,7 +103,6 @@ input{
     width: 136px;
     height: 136px;
     margin: auto;
-
 }
 .aciglamah2{
     font-size: 1.5em;
@@ -129,6 +128,78 @@ input{
     padding: 9px 20px;
     margin-top: 26px;
     margin-bottom: 23px;
+    cursor: pointer;
+}
+#latestwork{
+    background: #54d154;
+}
+.greenbasligh1{
+    font-size: 1.3em;
+    color: #207b20;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 43px;
+}
+.greenbasligp{
+    font-size: 1em;
+    color: #2b9b2b;
+    font-family: "Myriad Pro";
+    text-align: center;
+}
+.greenline{
+    width: 47px;
+    border: 1px solid #2b9b2b;
+}
+#latestworkbtn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+#stbtn, #ndbtn, #rdbtn{
+    border: none;
+    font-size: 1em;
+    padding: 5px;
+    font-family: "Proxima Nova";
+}
+#stbtn{
+    border-radius: 16px 0 0 16px;
+    background: #2b9b2b;
+    color: white;
+}
+#ndbtn{
+    color: var(--green);
+}
+#rdbtn{
+    border-radius: 0 16px 16px 0;
+    border-left: 1px solid #2b9b2b;
+    color: var(--green);
+}
+#latestworkphoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row img{
+    width: 100%;
+    padding: 10px 40px 10px 40px;
+}
+.etraflibtn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.etraflibtn button{
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1em;
+    color: #fff;
+    font-family: "Proxima Nova";
+    text-align: center;
+    background-color: #2b9b2b;
+    padding: 10px;
     cursor: pointer;
 }
 
@@ -160,4 +231,20 @@ input{
     .aciglamalar{
         margin: 0 50px;
     }
+    #latestworkphoto{
+        padding-top: 60px;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        padding-bottom: 30px;
+    }
+    .row img{
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        padding: 0;
+    }
+    
 }
