@@ -202,7 +202,37 @@ input{
     padding: 10px;
     cursor: pointer;
 }
-
+.t-content{
+    font-size: 1em;
+    color: #444;
+    font-family: "Proxima Nova";
+    padding: 30px 20px 10px 20px;
+    text-align: center;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.profile img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+.name {
+    font-size: 1.2em;
+    color: #222;
+}
+.title {
+    font-size: 1em;
+    font-weight: bold;
+    color: #ccc;
+}
+#client{
+    background: #f1f1f1;
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -246,5 +276,12 @@ input{
         object-fit: cover;
         padding: 0;
     }
-    
+    .t-content{
+        padding: 70px 0 40px 0;
+        width: 50%;
+        margin: auto;
+    }
+    .profile {
+        padding-bottom: 60px;
+    }
 }
